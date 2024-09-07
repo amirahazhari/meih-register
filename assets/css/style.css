@@ -1,0 +1,215 @@
+*{
+    margin:0px;
+}
+.logo{
+    width:auto;
+    height:auto;
+}
+.register-form-container{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.side-container{
+    background: var(--Jordy-Blue-200, #C5D9FF);
+    display: flex;
+    width: 100%;
+    height: 700px;
+    padding: 50px 0px 64px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.signup-text{
+color: var(--Jordy-Blue-400, #7D9BFC);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.text-section{
+    color: var(--Black-700, #4F4F4F);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.login-btn{
+border-radius: 4px;
+border: 1px solid var(--Jordy-Blue-700, #333DCF);
+background: #FFF;
+display: flex;
+padding: 16px 40px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: var(--Jordy-Blue-700, #333DCF);
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 133.333% */
+cursor: pointer;
+}
+
+.form-container{
+display: flex;
+flex-direction:column;
+width: 100%;
+align-items: normal;
+gap: 16px;
+border-radius: 0px 4px 4px 0px;
+background: #FFF;
+}
+
+.form-header{
+color: var(--Black-900, #3D3D3D);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+padding: 24px;
+}
+
+.account-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px;
+    gap:16px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    gap: 16px;
+  }
+  
+  .form-group, .password-input {
+    width: 100%; /* or set a larger width if needed */
+  }
+
+  input, select {
+    padding: 16px 32px 16px 16px;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid var(--Black-300, #B0B0B0);
+    background: var(--Neutral-N0, #FFF);
+    }
+    
+    input::placeholder {
+        color: var(--Black-300, #B0B0B0);
+        font-feature-settings: 'liga' off, 'clig' off;
+        
+        /* Form/Input Placeholder */
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 19.6px */
+    }
+
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+      }
+      
+      .password-input {
+        position: relative;
+      }
+
+      .password-input input {
+        width: 100%; /* or a specific width */
+        padding-right: 80px; /* Existing padding */
+        box-sizing: border-box; /* Includes padding in the total width */
+      }
+
+      .password-input .show-password {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+      
+      select {
+        background-color: #f7f7f7;
+      }
+      
+      span {
+        font-size: 12px;
+        color: #777;
+      }
+
+      label {
+        color: var(--Black-600, #5D5D5D);
+        font-feature-settings: 'liga' off, 'clig' off;
+        /* Form / Label Regular Medium */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 15.6px */
+      }
+
+      .verification {
+        display: flex;
+        align-items: center; /* Vertically centers the checkbox and text */
+        justify-content: space-between;
+        border-radius: 4px;
+        border: 1px solid var(--Black-300, #B0B0B0);
+        background: var(--Neutral-N0, #FFF);
+        padding: 16px;
+    }
+    
+    .verification input[type="checkbox"] {
+        margin-right: 32px; /* Space between checkbox and text */
+        width:auto !important;
+    }
+    
+    .verification label {
+        margin: 0; /* Removes default margin */
+        font-size: 14px; /* Adjust font size as needed */
+    }
+    
+    .submit-btn-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0px; /* Adjust if needed */
+      }
+      .submit-btn {
+        display: flex;
+        padding: 12px 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        border-radius: 4px;
+        background: var(--Jordy-Blue-500, #5E76F6);
+        border-color: transparent;
+        cursor: pointer;
+      }
+      
+      .btn-text{
+        color: var(--Base-White, #FFF);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+      }

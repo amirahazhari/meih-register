@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./assets/css/style.css" rel="stylesheet" />
+
+        <style>
+        @font-face {
+            font-family: 'Inter';
+            src: url('./assets/fonts/inter/Inter-Medium.ttf') format('truetype');
+            font-weight: 500;
+            font-style: normal;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="register-form-container">
+            <div class="side-container">
+                <div class="logo">
+                    <img src="./assets/images/logo.svg">
+                </div>
+                <div class="signup-text">
+                    <h2> Sign Up</h2>
+                </div>
+                <div class="text-section">
+                    <p >Please enter your details to sign up and get ready to explore about energy in Malaysia!</p>
+                    <br>
+                    <p>Already have an account?</p>
+                </div>
+                <div>
+                    <button class="login-btn">Log In</button>
+                </div>
+            </div>
+            <div class="form-container">
+                <div class="form-header">
+                    <h2>Cipta akaun anda</h2>
+                </div>
+                <form class="account-form">
+                    <div class="form-group">
+                        <label for="role">Occupation</label>
+                        <select id="role">
+                            <option selected>Select item</option>
+                            <option>Student</option>
+                            <option>Teacher/Lecturer</option>
+                            <option>Researcher</option>
+                            <option>Government Sector Staff</option>
+                            <option>Private Sector Staff</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Muhd Ali">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="muhdali@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div class="password-input">
+                            <input type="password" id="password" placeholder="Enter your password">
+                            <span class="show-password">👁️</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <div class="password-input">
+                            <input type="password" id="confirm-password" placeholder="Re-enter your password">
+                            <span class="show-password">👁️</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="verification">
+                            <input type="checkbox" id="verification">
+                            <label for="verification">I'm not a robot</label>
+                        </div>
+                    </div>
+                    
+                    <div class="submit-btn-container">
+                        <button class="submit-btn">
+                            <a class="link-btn">
+                                <span class="btn-text">Seterusnya</span>
+                            </a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>
+
+     
